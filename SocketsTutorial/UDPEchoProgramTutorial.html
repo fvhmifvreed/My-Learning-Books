@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  
+<!-- Mirrored from people.computing.clemson.edu/~jmarty/courses/SocketsTutorial/UDPEchoProgramTutorial.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Feb 2024 00:52:07 GMT -->
+<head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Tutorial on UDPEcho</title>
+  </head>
+  <body>
+    <p>Tutorial on Linux Sockets Programming.... </p>
+    <p>We use two examples:</p>
+    <ul>
+      <li>UDPEcho2.tar.gz :  a simple UDP-based ping program</li>
+      <li>perfTool.tar.gz : builds on the UDP ping program, to provide an assessment tool involving the sending and reception of a stream of UDP packets</li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Sections of the tutorial</p>
+    <ul>
+      <li>-Overview</li>
+      <li>-UDPEcho2:
+        <ul>
+          <li>Downloading the code</li>
+          <li>-Building the code</li>
+          <li>-Running the code  </li>
+        </ul>
+      </li>
+      <li>perfTool
+        <ul>
+          <li>Downloading the code</li>
+          <li>-Building the code</li>
+          <li>-Running the code </li>
+        </ul>
+      </li>
+    </ul>
+  <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h1>Overview </h1>
+    <p>&nbsp;</p>
+  <p>&nbsp;</p>
+    <h1>Downloading the code....UDPEcho2.tar.gz</h1>
+    <p>&nbsp;</p>
+    <p>On the machine you will use to build and run the code, start a term session    </p>
+    <ul>
+      <li> &gt;wget <a href="http://www.cs.clemson.edu/~jmarty/courses/SocketsTutorial/code/UDPEcho2.tar.gz">http://www.cs.clemson.edu/~jmarty/courses/SocketsTutorial/code/UDPEcho2.tar.gz</a><br>
+        &gt;ls -lt UDPEcho2.tar.gz</li>
+      <li>&gt;gzip -d UDPEcho2.tar.gz</li>
+      <li>&gt;tar -tf UDPEcho2.tar  </li>
+      <li>&gt;tar -xf UDPEcho2.tar</li>
+      <li></li>
+    </ul>
+    <p>Building the code- assumes Linux (modify Make.defines if on MAC OS)</p>
+    <ul>
+      <li>-edit Makefile and find the line &quot;DO NOT DELETE&quot; and delete all lines after this (yes...confusing!!)</li>
+      <li>-To build:   </li>
+      <li>&gt;make clean</li>
+      <li>&gt;make </li>
+      <li>-Issue an ls -lt and verify ./client and ./server were generated</li>
+    </ul>
+    <h3>&nbsp;</h3>
+  <h3>Running the code</h3>
+    <ul>
+      <li>-First, make sure the server is started. On the server (assume its name is mymachine.clemson.edu and we want to run the server on port 5000)</li>
+      <li>&gt;./server 5000</li>
+      <li>-Next, start the client on whatever machine you like. Note....it must have connectivity with the server. To test....issue a ping mymachine.clemson.edu)</li>
+      <li>&gt;./client mymachine.clemson.edu 5000 1 1000 100</li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h1>Downloading the code....perfTool.tar.gz</h1>
+    <p>&nbsp;</p>
+    <p>On the machine you will use to build and run the code, start a term session </p>
+    <ul>
+      <li> &gt;wget <a href="http://www.cs.clemson.edu/~jmarty/courses/SocketsTutorial/code/perfTool.tar.gz">http://www.cs.clemson.edu/~jmarty/courses/SocketsTutorial/code/perfTool.tar.gz</a><br>
+        &gt;ls -lt .tar.gz</li>
+      <li>&gt;gzip -d 2.tar.gz</li>
+      <li>&gt;tar -tf .tar </li>
+      <li>&gt;tar -xf .tar</li>
+      <li></li>
+    </ul>
+    <p>Building the code- assumes Linux (modify Make.defines if on MAC OS)</p>
+    <ul>
+      <li>-edit Makefile and find the line &quot;DO NOT DELETE&quot; and delete all lines after this (yes...confusing!!)</li>
+      <li>-To build: </li>
+      <li>&gt;make clean</li>
+      <li>&gt;make </li>
+      <li>-Issue an ls -lt and verify ./perfClient and ./perfServer were generated</li>
+    </ul>
+    <h3>&nbsp;</h3>
+    <h3>Running the code</h3>
+  <p>-First, make sure the server is started. On the server (assume its name is mymachine.clemson.edu and we want to run the server on port 5000)</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Last updated: 2/20/17</p>
+    <p>&nbsp;</p>
+    <p><br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </p>
+  </body>
+
+<!-- Mirrored from people.computing.clemson.edu/~jmarty/courses/SocketsTutorial/UDPEchoProgramTutorial.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Feb 2024 00:52:07 GMT -->
+</html>
