@@ -1,0 +1,841 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+  
+<!-- Mirrored from people.computing.clemson.edu/~jmarty/courses/LinuxStuff/LinuxInfo.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Feb 2024 00:50:57 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <meta name="Author" content="Jim Martin">
+    <meta name="GENERATOR" content="Mozilla/4.77 [en] (Windows NT 5.0;
+      U) [Netscape]">
+    <title>Linux Information </title>
+  </head>
+  <body style="color: rgb(0, 0, 0); background-color: rgb(255, 255,
+    255);" alink="#0077ff" vlink="#881111" link="#ff1100">
+    <h1 style="text-align: center;">Unix/Linux Overview <br>
+    </h1>
+    &nbsp;
+    <h1>Introduction to Unix:</h1>
+    <ul>
+      <li>"<a href="https://dl.acm.org/citation.cfm?id=361061">The UNIX
+          Time Sharing System</a>", Dennis Ritchie and Ken Thompson
+        (Bell Labs)</li>
+      <li><a href="http://www.greens.org/about/unix">It is all in the
+          name ..... </a>
+        <ul>
+          <li>UNIX: The commercial trademark reference to the code
+            developed by Bell Labs beginning in 1969.</li>
+          <li>unix (or Unix if first word in a sentence): The generic
+            name for all UNIX-like operating systems.
+            <ul>
+              <li>Today, the term refers to a unix distribution based on
+                the Linux OS kernel.</li>
+            </ul>
+          </li>
+          <li>BSD : Berkeley Software Division developed a variant of
+            UNIX to speed up the delivery of new code and features.</li>
+          <li><a href="https://www.gnu.org/gnu/gnu-history.en.html">GNU:
+              GNU's Not UNIX</a>, was a project meant to replace UNIX.
+            <ul>
+              <li>Ok....so now let's try<a
+                  href="https://www.gnu.org/gnu/linux-and-gnu.html">
+                  GNU/Linux </a>: Unix distributions based on GNU
+                applications and a Linux kernel. </li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h1>Lineage:<br>
+    </h1>
+    <ul>
+      <li>AT&amp;T Unix</li>
+      <li>BSD Unix&nbsp; <br>
+      </li>
+      <ul>
+        <li>A number of <a moz-do-not-send="true"
+            href="https://en.wikipedia.org/wiki/List_of_BSD_operating_systems">active
+
+            distributions:</a></li>
+        <ul>
+          <li><a moz-do-not-send="true" href="https://www.freebsd.org/">freeBSD</a></li>
+        </ul>
+      </ul>
+      <li>Darwin (mac os) was derived from Job's Next companies OS
+        platform which derived from BSD Unix</li>
+      <li>Linux:&nbsp; rumored to be written from scratch but there are
+        rumored to be a&nbsp; number of areas in the Linux Kernel
+        portions of the BSD kernel. <br>
+      </li>
+    </ul>
+    <h1>Mac OS- <br>
+    </h1>
+    <p>please refer to this<a
+        href="../commonCourseContent/common/IntroToMACOS.html"> page. </a><br>
+    </p>
+    <h1>Unix History and Facts</h1>
+    <h4>Fun fact: Unix was under development the year Linus Torvalds,
+      the inventor of Linux, was born - 1969!! </h4>
+    <ul>
+      <li><a
+          href="http://www.unix.org/what_is_unix/history_timeline.html">According
+
+
+
+
+
+
+
+          to unix.org ...</a>.</li>
+      <li><a
+href="https://spectrum.ieee.org/tech-history/cyberspace/linux-at-25-why-it-flourished-while-others-fizzled">Linux
+
+
+
+
+
+
+
+          at 25 (IEEE Spectrum April 2016)</a></li>
+      <li><a href="https://www.bell-labs.com/usr/dmr/www/pdfs/man22.pdf">Rumored
+
+
+
+
+
+
+
+          to be the first edition of the Unix Programmers Manual </a> </li>
+    </ul>
+    <h2>Linux Governing Organizations </h2>
+    <p>While there is no single governing difficult trying to understand
+      the various Linux communities. To the credit of the many
+      contributors to Linux, the stakes surrounding the successful
+      balance of Economic, Intellectual Property, Cybersecurity issues
+      that continually push the open source concept at its blurry edge.
+      However, to be precise, the term Linux refers to a specific kernel
+      (originally developed by Linus Torvald). The majority of software
+      that goes into a Linux distribution is applications from many open
+      source projects, much of which comes from <a
+        href="http://directory.fsf.org/wiki/GNU">GNU</a>.</p>
+    <ul>
+      <li>The <a href="https://www.linuxfoundation.org/">Linux
+          Foundation&nbsp; </a>supports the development of Linux along
+        with MANY sites (such as the others in this list)<br>
+        <ul>
+          <li><a href="https://www.kernel.org/">https://www.kernel.org/</a></li>
+          <li><a href="https://linux.com /">https://linux.com </a></li>
+          <li>Recent <a
+href="https://www.linux.com/publications/linux-kernel-development-how-fast-it-going-who-doing-it-what-they-are-doing-and-who-5">document</a>
+            that shows who contributes the most to the kernel actually
+            identitifies the top developers and corporations that submit
+            kernel changes.</li>
+        </ul>
+      </li>
+      <li>The <a href="http://www.fsf.org/">Free Software Foundation's
+        </a>mission statement: "The FSF provides critical infrastructure
+        and funding for the&nbsp;<a href="https://gnu.org/">GNU project</a>,
+        the foundation of the popular GNU/Linux family of free operating
+        systems and the keystone of the Internet. "
+        <ul>
+          <li><a href="https://www.gnu.org/gnu/linux-and-gnu.html">GNU
+              statement on Linux and the GNU System</a></li>
+          <li><a href="https://www.gnu.org/distros/free-distros.html">Distros
+
+
+
+
+
+
+
+              that are based on GNU applications and the Linux Kernel</a></li>
+          <li><a
+              href="https://www.gnu.org/philosophy/categories.html#GNUsoftware">Clarifications
+
+
+
+
+
+
+
+              on 'free'</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li>Other Unix Organizations include
+        <ul>
+          <li><a href="https://www.usenix.org/">Usenix Association</a></li>
+          <li><a href="http://unix.org/">unix.org</a></li>
+        </ul>
+      </li>
+    </ul>
+    <p>(I apologize in advance for leaving out other organizations...we
+      will update/correct this list as best we can)</p>
+    <h2><br>
+    </h2>
+    <h2>To participate in the Linux Community</h2>
+    <p>This is quite easy...although the details depend on what part of
+      a Linux Distribution is of interest. we need to go back to the
+      fact that Linux is a kernel.</p>
+    <ul>
+      <li><a
+href="https://www.linux.com/publications/how-participate-linux-community">Contribute
+
+
+
+
+
+
+
+          to the Linux kernel...</a></li>
+      <li><a href="https://www.gnu.org/help/help.html#develop">Contribute
+
+
+
+
+
+
+
+          to the GNU operating system</a></li>
+      <li>Contribute to the many open source efforts that are included
+        in a distribution.</li>
+    </ul>
+    <p>&nbsp;</p>
+    <h2>Linux Distribution sites: </h2>
+    <p>Google 'top Linux distributions' to get updated information, but
+      here are some 'best of' Linux' lists </p>
+    <ul>
+      <li><a
+href="https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/">top
+
+
+
+
+
+
+
+          Linux distributions - 2017<br>
+        </a></li>
+      <li><a
+          href="https://www.tecmint.com/new-linux-distributions-2019/">Top
+
+
+
+
+
+
+          10 New Linux Distros - 2019</a><br>
+      </li>
+      <li><a
+          href="http://www.makeuseof.com/tag/best-linux-distributions/">Best
+
+
+
+
+
+
+
+          Linux for specific purposes</a></li>
+      <li><a
+href="https://resources.infosecinstitute.com/top-10-linux-distro-ethical-hacking-penetration-testing/#gref">Top
+
+
+
+
+
+
+
+          10 Linux security distros (for hacking/pentests)<br>
+        </a></li>
+    </ul>
+    <p>&nbsp;The web site <a href="https://distrowatch.com/">distrowatch.com</a>
+      is a good source for most recent updates on the major distros.<br>
+    </p>
+    <p>Link to distro sites:</p>
+    <ul>
+      <li><a href="https://www.archlinux.org/">archlinux</a></li>
+      <li><a href="https://www.centos.org/">CentOS</a></li>
+      <li><a href="https://www.debian.org/">debian</a></li>
+      <li><a href="http://www.tecmint.com/">Tecmint</a><br>
+      </li>
+      <li><a href="http://www.ubuntu.com/desktop">Ubuntu</a></li>
+      <ul>
+        <li><a moz-do-not-send="true"
+            href="https://manpages.ubuntu.com/">Man pages</a><br>
+        </li>
+        <li><a href="https://developer.ubuntu.com/core">IoT distr - Core
+          </a></li>
+      </ul>
+      <li><a href="https://source.android.com/">Android </a></li>
+      <li><a href="https://www.raspbian.org/">Raspberry Pi (Raspbian)</a>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>Alternatives to Linux:</p>
+    <ul>
+      <li><a href="https://www.freebsd.org/">FreeBSD (always been my
+          favorite - the steven's TCP/IP Illustrated books track well
+          with this Unix distro)<br>
+        </a></li>
+      <li><a href="http://www.puredarwin.org/">open source macOS
+          (PureDarwin)</a></li>
+      <li><a href="http://www.freertos.org/index.html">freeRTOS
+          (realtime OS for embedded systems)</a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <h2>Documentation: Guides and Tutorials:</h2>
+    <p><a href="http://www.tldp.org/index.html">The Linux Documentation
+        Project:</a></p>
+    <ul>
+      <li><a href="http://tldp.org/LDP/Bash-Beginners-Guide/html/">Bash
+          Guide for Beginners</a>
+        <ul>
+          <li><a
+href="http://www.tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf">PDF
+
+
+
+
+
+
+
+              of this text</a></li>
+        </ul>
+      </li>
+      <li><a href="http://www.tldp.org/LDP/abs/html/index.html">Advanced
+          Bash-Scripting Guide</a>
+        <ul>
+          <li><a href="http://www.tldp.org/LDP/abs/abs-guide.pdf">PDF of
+              this text</a></li>
+        </ul>
+      </li>
+      <li><a href="http://tldp.org/LDP/sag/sag.pdf">Linux System
+          Administrators Guide</a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <p><a href="https://www.gnu.org/software/bash/">GNUs Bash home page</a>
+    </p>
+    <ul>
+      <ul>
+        <li><a
+href="https://www.gnu.org/software/bash/manual/bashref.html#Introduction">GNU
+
+
+
+
+
+
+
+            Bash Reference Manual</a></li>
+        <li><a
+href="http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/GNU-Linux-Tools-Summary.pdf">GNU/Linux
+
+
+
+
+
+
+
+            Tools Summary</a></li>
+      </ul>
+    </ul>
+    <p><a href="https://gcc.gnu.org/">&nbsp;GNU compiler home page</a><br>
+    </p>
+    <ul>
+      <li><a href="BashGuides/gnugcclibcManual.pdf">GNU gcc library
+          reference</a></li>
+    </ul>
+    <p>Linux kernel information</p>
+    <ul>
+      <li><a href="https://kernelnewbies.org/">Linux kernel Newbies</a>
+        <ul>
+          <li>Great page on<a
+              href="https://kernelnewbies.org/KernelHacking"> kernel
+              hacking</a></li>
+        </ul>
+      </li>
+    </ul>
+    <p>Unix/Linux - basic skills tutorials</p>
+    <ul>
+      <li>I highly recommend checking out the material at William
+        Shott's web site:</li>
+      <ul>
+        <li><a href="http://linuxcommand.org/index.php">LinuxCommand.org
+            -Tutorial</a> and&nbsp; his very recent release of "<a
+href="https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download">The
+
+
+
+
+
+            Linux Command Line</a>" text <br>
+        </li>
+      </ul>
+      <li>Tutorials related to Bash</li>
+      <ul>
+        <li>&nbsp;<a
+            href="http://tldp.org/LDP/Bash-Beginners-Guide/html/">Bash
+            Beginners Guide</a></li>
+        <li>This is useful for trying bash - an&nbsp; <a
+            href="https://www.tutorialspoint.com/execute_bash_online.php">online
+
+
+
+
+
+            bash shell</a></li>
+        <li><a
+            href="http://www.tutorialspoint.com/unix_commands/bash.htm">TutorialsPoint
+
+
+
+
+
+
+
+            -Bash</a></li>
+        <li><a moz-do-not-send="true"
+            href="https://www.pcwdld.com/bash-cheat-sheet">PCWorld's
+            Bash info</a><br>
+        </li>
+      </ul>
+    </ul>
+    <ul>
+      <li>Vim editor</li>
+      <ul>
+        <li><a href="http://vimdoc.sourceforge.net/htmldoc/usr_toc.html">Online
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            vim 6.1 manual - includes a hand's on learning tool<br>
+          </a></li>
+      </ul>
+      <ul>
+        <li><a
+            href="http://www.eandem.co.uk/mrw/vim/usr_doc/doc_ltrc.pdf">Vim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            7.2 manual (pdf)</a><br>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="http://www.truth.sk/vim/vimbook-OPL.pdf"><span
+              style="text-decoration: underline;">The VIM Book</span></a></li>
+      </ul>
+      <li>Regular Expressions (regex)
+        <ul>
+          <li><a
+href="https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux">tutorial
+
+
+
+
+
+
+
+              from digital ocean</a></li>
+        </ul>
+      </li>
+      <li><span style="text-decoration: underline;">AWK</span></li>
+      <ul>
+        <li><a href="http://www.grymoire.com/Unix/Awk.html">GrymoireTutorial</a></li>
+      </ul>
+      <li>Sed
+        <ul>
+          <li><a href="http://www.grymoire.com/Unix/sed.html">Grymoire
+              Tutorial</a></li>
+        </ul>
+      </li>
+      <li>Makefiles
+        <ul>
+          <li>brief <a
+href="https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html">tutorial
+
+
+
+
+
+
+
+            </a>from Dr Newhall at Swarthmore: </li>
+          <li><a
+              href="http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/">Simple
+
+
+
+
+
+
+
+              tutorial</a></li>
+          <li>Open source book using<a
+              href="https://www.oreilly.com/openbook/make3/book/index.csp">
+              GNU make</a><br>
+          </li>
+        </ul>
+        <br>
+        <ul>
+        </ul>
+      </li>
+    </ul>
+    <p>The following are 'cheat sheets' that have been posted to the
+      Internet </p>
+    <ol>
+      <li><a
+          href="https://education.github.com/git-cheat-sheet-education.pdf">git
+
+
+
+
+
+          Cheat Sheet</a></li>
+      <li><a href="ShellCheatSheet1.pdf">Shell Cheat Sheet</a><br>
+      </li>
+      <li><a href="LinuxSysCallCheatSheet.pdf">Linux System Calls</a></li>
+      <li><a href="LinuxBashCheatSheet1.pdf">Linux Bash Cheat Sheet </a><br>
+      </li>
+      <li><a href="regexp-cheatsheet.pdf">Regexp Cheat Sheet</a></li>
+      <li><a moz-do-not-send="true"
+          href="https://www.pcwdld.com/bash-cheat-sheet">PC Mags Bash
+          cheat sheet</a><br>
+      </li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>Conferences papers</p>
+    <ul>
+      <li><a href="https://www.kernel.org/doc/ols/">Linux Symposium</a></li>
+      <li><a moz-do-not-send="true" href="https://www.usenix.org/">Usenix.org
+        </a>- an organization that promotes Unix.&nbsp; Browse their
+        site!&nbsp; Also check out <br>
+      </li>
+      <ul>
+        <li><a moz-do-not-send="true"
+            href="https://www.usenix.org/conferences/all">Several of
+            their conferences are very high quality</a><br>
+        </li>
+      </ul>
+    </ul>
+    <p>&nbsp;</p>
+    <span style="text-decoration: underline;"><span style="font-weight:
+        bold;"> </span></span> <br>
+    <h3>Related to the Linux System/OS/Kernel</h3>
+    <ul>
+      <li><a href="http://www.tldp.org/LDP/lkmpg/2.6/html/lkmpg.html">Tutorial
+
+
+
+
+
+
+
+          on Kernel Modules</a><br>
+        <span style="text-decoration: underline;"><span
+            style="font-weight: bold;"> </span></span> </li>
+    </ul>
+    <h4>&nbsp;</h4>
+    <h2><span style="font-weight: bold;">Linux Networking Stack</span></h2>
+    <ul>
+      <li><a
+href="https://help.ubuntu.com/lts/serverguide/network-configuration.html">Ubuntu
+
+
+
+
+
+
+
+          network config information</a>
+        <ul>
+          <li><a
+href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04">Useful
+
+
+
+
+
+
+
+              tutorial to setup a ubuntu system as a server</a></li>
+        </ul>
+      </li>
+      <li>Network Tuning
+        <ul>
+          <li><a
+href="https://www.psc.edu/index.php/services/networking/68-research/networking/641-tcp-tune">Enabling
+
+
+
+
+
+
+
+              high performance Data Transfers</a></li>
+          <li><a href="https://fasterdata.es.net/host-tuning/">ESnet's
+              page on Host tuning</a>
+            <ul>
+              <li><a
+href="http://meetings.internet2.edu/media/medialibrary/2016/10/24/20160927-tierney-improving-performance-40G-100G-data-transfer-nodes.pdf">Overview:
+
+
+
+
+
+
+
+                  Slides on a recent (9/2016) updates related to Linux
+                  TCP and tuning to reach 100G Hosts</a> </li>
+              <li><a href="https://fasterdata.es.net/host-tuning/linux/">Linux
+
+
+
+
+
+
+
+                  Tuning </a></li>
+              <li><a
+href="https://fasterdata.es.net/host-tuning/linux/recent-tcp-enchancements/">recent
+
+
+
+
+
+
+
+                  TCP enhancements</a> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a
+href="http://www.howtogeek.com/177621/the-beginners-guide-to-iptables-the-linux-firewall/">Linux
+
+
+
+
+
+
+
+          Firewall (IP tables) tutorial </a>
+        <ul>
+          <li><a href="http://www.fwbuilder.org/">Firewall Builder (GUI)</a></li>
+        </ul>
+      </li>
+      <li><a
+href="http://www.slashroot.in/linux-nat-network-address-translation-router-explained">Linux
+
+
+
+
+
+
+
+          NAT</a>.</li>
+      <li>Linux network emulation
+        <ul>
+          <li>tc and netem
+            <ul>
+              <li><a
+href="http://netlab-imac.cs.clemson.edu/~jmarty/PapersOfInterest/Testbeds/TC-readme.txt">TC
+
+
+
+
+
+
+
+                  command readme</a></li>
+              <li>tc HOWTO documentation: <a
+                  href="http://linux-ip.net/articles/Traffic-Control-HOWTO/">http://linux-ip.net/articles/Traffic-Control-HOWTO/</a></li>
+              <li>tc-htb : <a
+                  href="http://lartc.org/manpages/tc-htb.html">http://lartc.org/manpages/tc-htb.html</a></li>
+              <li>tc-tbf: <a href="http://linux.die.net/man/8/tc-tbf">http://linux.die.net/man/8/tc-tbf</a></li>
+              <li>netem: note that netem and htb will not work
+                together!!! See <a
+                  href="http://man7.org/linux/man-pages/man8/tc-netem.8.html">http://man7.org/linux/man-pages/man8/tc-netem.8.html</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p><br>
+      <br>
+    </p>
+    <p>&nbsp;<span style="text-decoration: underline;"><span
+          style="font-weight: bold;"><strong>Useful Linux tools/commands
+            related to networking</strong></span></span> <br>
+    </p>
+    <ul>
+      <li>sysctl -N net.ipv4 | more&nbsp;&nbsp;&nbsp;&nbsp; //see tcp/ip
+        settings for the machine</li>
+      <li>ifconfig :&nbsp; user interface for configuring network
+        interfaces</li>
+      <li>netstat:&nbsp; user interface for setting IP operating
+        parameters or for seeing the current state of IP</li>
+      <li>route:&nbsp; similar to netstat, but a bit more focused on
+        accessing the IP forwarding table</li>
+      <li>iptables : user interface to Linux's firewall rules (must be
+        root)<br>
+      </li>
+      <li>arp :&nbsp; user interface to access the ARP cache (try 'arp
+        -a')</li>
+      <li>dig or host : programs to interact with the DNS system (try
+        'host -v www.ibm.com')</li>
+      <li>To restart networking, several ways...
+        <ul>
+          <li>sudo bash -x /usr/sbin/service networking restart</li>
+          <li>sudo bash -x /etc/init.d/networking restart </li>
+        </ul>
+      </li>
+    </ul>
+    <blockquote>
+      <p>&nbsp;</p>
+    </blockquote>
+    <h1>Cool/Useful/Interesting packages/tools for Linux</h1>
+    <p>&nbsp;</p>
+    <ul>
+      <li><a
+href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04">Install
+
+
+
+
+
+
+
+          mySQL on ubuntu</a></li>
+      <li><a href="https://www.nginx.com/products/">NGINX </a>: high
+        performance open source web server (alternative to apache)</li>
+      <li><a href="https://www.docker.com/">Docker</a>:
+        <ul>
+          <li><a
+href="https://www.docker.com/sites/default/files/WP_Modern App Architecture for Enterprise - Jan 2016.pdf?iesrc=ctr">Overview</a></li>
+          <li><a
+href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-14-04">Install/Use
+
+
+
+
+
+
+
+              Docker on Ubuntu</a></li>
+        </ul>
+      </li>
+      <li><a href="http://mininet.org/">MiniNet: create virtual networks
+          using SDN</a>
+        <ul>
+          <li>Easiest way to get started- <a
+              href="https://github.com/mininet/mininet/wiki/Mininet-VM-Images">download
+
+
+
+
+
+
+
+              a miniNet VM using VirtualBox</a></li>
+        </ul>
+      </li>
+      <li><a href="http://www.ntop.org/pf_ring/introducing-pf_ring-6-2/">PF_RING:
+
+
+
+
+
+
+
+        </a>Linux kernel module supporting 0copy device transfers- this
+        is how for example an application that uses PCAP (like snort or
+        tcpdump) can keep up at &gt;1Gbps line.</li>
+      <li><a href="https://www.snort.org/">Snort:</a>Widely used
+        intrusion detection software (IDS)</li>
+      <li><a href="https://www.bro.org/">Bro:</a> Widely used intrusion
+        detection software (IDS)</li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Web server or web app related (coming soon !!)</p>
+    <ul>
+      <li>Related to javascript</li>
+      <li>Related to node.js</li>
+    </ul>
+    <p>&nbsp;</p>
+    <h1>Other useful links </h1>
+    <ul>
+      <li><a
+          href="http://www.compsci.hunter.cuny.edu/~sweiss/resources.php">Dr
+
+
+
+
+
+
+
+          Weiss, HunterCollege - resources page</a></li>
+      <li><a
+          href="https://msdn.microsoft.com/en-us/commandline/wsl/install_guide">setup
+
+
+
+
+
+
+
+          a Bash shell in Windows 10</a></li>
+      <li><a
+          href="https://www.tutorialspoint.com/execute_bash_online.php">coding
+
+
+
+
+
+
+
+          ground online bash</a>- </li>
+    </ul>
+    <p>&nbsp;</p>
+    <p><br>
+      Last updated 6/2/2022<br>
+    </p>
+    <p> <br>
+      <br>
+      <br>
+      <br>
+    </p>
+  </body>
+
+<!-- Mirrored from people.computing.clemson.edu/~jmarty/courses/LinuxStuff/LinuxInfo.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Feb 2024 00:50:58 GMT -->
+</html>
